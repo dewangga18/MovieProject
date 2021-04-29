@@ -21,11 +21,13 @@ JSON
 - Analogi sederhananya adalah sebuah restoran, didalam restoran terdapat pelanggan, pelayan dan koki. Bayangkan pelanggan adalah user di halalaman frontend, pelayan adalah API dan koki adalah backendnya. Pelanggan akan memesan makanan pada pelayan dan pelayan akan daftar pesanan pada koki. Saat makanan telah siap, pelayan akan mengantar makanan pada pelanggan.
 
 - Sama dengan Lifecycle API, frontend disini bisa jadi client yang mengakses platform web maupun mobile. API akan menerima permintaan data dari frontend lalu menyerahkannya pada backend, backend akan menyerahkan data yang sesuai lalu API menyerahkan data tersebut pada frontend(client) 
-
+### Komponen Penting
+- Butterknife, adalah library untuk menyimpan data pada backendnya
+- Retrofit, adalah library untuk membantu kita membuat APInya
+- Recycler, library yang bisa kita pakai untuk menampilkan list array data.
 #### catatan kaki
 - jika hasil running project (color) tidak sesuai, Anda bisa mematikan mode malam pada device Anda. 
 Contoh: android: background = white, tapi saat dijalankan berwarna gelap
-
 - walaupun APInya beda, data tidak akan ada kesalahan jika backendnya sama.
 - Pastikan untuk melihat Android Manifest jika layout yang tertampil hanya warna putih,
 - Copy paste memang mempercepat pengerjaan, tapi dengan mengetik manual Anda semakin paham atas kode yang Anda kerjakan.
